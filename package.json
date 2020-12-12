@@ -1,0 +1,27 @@
+{
+  "name": "aesthetic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnav7633/aesthetic.git"
+  },
+  "author": "aesthetic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnav7633/aesthetic/issues"
+  },
+  "homepage": "https://github.com/arnav7633/aesthetic#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "canvas": "^2.6.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mathion": "^2.2.2",
+    "wokcommands": "^1.1.3"
+  }
+}
