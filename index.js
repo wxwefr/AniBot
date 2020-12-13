@@ -19,7 +19,7 @@ client.on('ready', () => {
   }; setInterval(randomStatus, 6000)// 6s (Seconds)
 
 
-  new WOKCommands(client, 'commands','features')
+  new WOKCommands(client, 'commands','features', 'messages.json')
     .setDefaultPrefix('?') // There will be a number of functions you chain together here
     .setCategoryEmoji('Admin', '👑')
     .setCategoryEmoji('Fun', '🎮')
@@ -28,6 +28,7 @@ client.on('ready', () => {
     .setCategoryEmoji('JoJoke', `👌`)
     .setCategoryEmoji('Post', `🗨`)
     .setMongoPath(process.env.MONGO_URI)
+    .setBotOwner(['268914030528299008'])
 })
 
 client.login(process.env.TOKEN)

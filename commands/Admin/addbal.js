@@ -3,6 +3,7 @@ const economy = require('../../economy')
 module.exports = {
   commands: ['addbalance', 'addbal'],
   category: 'Admin',
+  owneronly: true,
   minArgs: 2,
   maxArgs: 2,
   expectedArgs: "<The target's @> <coin amount>",
