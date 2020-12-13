@@ -18,6 +18,7 @@
   "homepage": "https://github.com/arnav7633/aesthetic#readme",
   "dependencies": {
     "axios": "^0.21.0",
+    "binner": "^1.0.1",
     "canvas": "^2.6.1",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",

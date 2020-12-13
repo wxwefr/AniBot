@@ -1,12 +1,12 @@
 const DiscordJS = require('discord.js')
 const WOKCommands = require('wokcommands')
+const binner = require('binner')
 require('dotenv').config()
 
 const client = new DiscordJS.Client()
 
 client.on('ready', () => {
   console.log(`[✅ Bot] ${client.user.tag} Online!`)
-
 
   function randomStatus() {
     let status = ["?help", "Anime", "thighs", "Hentai", "?prefix <prefix>"]
@@ -17,7 +17,6 @@ client.on('ready', () => {
     client.user.setActivity(status[rstatus], type[rtype]);
 
   }; setInterval(randomStatus, 6000)// 6s (Seconds)
-
 
   new WOKCommands(client, 'commands','features', 'messages.json')
     .setDefaultPrefix('?') // There will be a number of functions you chain together here
