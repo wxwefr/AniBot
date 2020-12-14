@@ -49,6 +49,6 @@ module.exports = (client) => {
     ctx.fillText(text, x, 100 + pfp.height)
 
     const attachment = new MessageAttachment(canvas.toBuffer())
-    channel.send('', attachment)
+    channel.send(`Welcome to AniHub`, attachment)
   })
 }

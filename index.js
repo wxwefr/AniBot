@@ -5,14 +5,16 @@ require('dotenv').config()
 
 const client = new DiscordJS.Client()
 
-client.on('ready', () => {
+client.on('ready', async() => {
   console.log(`[✅ Bot] ${client.user.tag} Online!`)
+  //await client.user.setActivity(`Chillin in ${client.guilds.cache.size} Servers`);
 
-  function randomStatus() {
-    let status = ["?help", "Anime", "thighs", "Hentai", "?prefix <prefix>"]
+    function randomStatus() {
+    let status = ["?help", "Anime", "thighs", "Hentai", "?prefix <prefix>", `Chillin in ${client.guilds.cache.size} Servers`]
     let type = ["WATCHING", "STREAMING"]
     let rstatus = Math.floor(Math.random() * status.length);
     let rtype = Math.floor(Math.random() * type.length);
+    //let servers = (`Chillin in ${client.guilds.cache.size} Servers`);
 
     client.user.setActivity(status[rstatus], type[rtype]);
 
