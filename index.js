@@ -10,11 +10,10 @@ client.on('ready', async() => {
   //await client.user.setActivity(`Chillin in ${client.guilds.cache.size} Servers`);
 
     function randomStatus() {
-    let status = ["?help", "Anime", "thighs", "Hentai", "?prefix <prefix>", `Chillin in ${client.guilds.cache.size} Servers`]
+    let status = ["?help", "Genshin Impact", "Honika-Impact", "Top.gg", "?prefix <prefix>", `Chillin in ${client.guilds.cache.size} Servers`, "Vote me on top.gg", "?support", "Animekisa.tv"]
     let type = ["WATCHING", "STREAMING"]
     let rstatus = Math.floor(Math.random() * status.length);
     let rtype = Math.floor(Math.random() * type.length);
-    //let servers = (`Chillin in ${client.guilds.cache.size} Servers`);
 
     client.user.setActivity(status[rstatus], type[rtype]);
 

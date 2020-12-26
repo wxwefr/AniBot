@@ -3,6 +3,7 @@ const economy = require('../../economy')
 module.exports = {
   commands: 'pay',
   category: 'Economy',
+  description: 'pay someone',
   minArgs: 2,
   maxArgs: 2,
   expectedArgs: "<Target user's @> <Amount of coins>",
