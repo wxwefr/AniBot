@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const mathion = require('mathion')
-const poke =
+const death =
 [
     'https://media1.tenor.com/images/25a5b0faa2044db0b1e5e3ab2fb8d4f0/tenor.gif?itemid=15157935',
     'https://media1.tenor.com/images/4b8a20e7dbd56575f1af27d9d26ff5e5/tenor.gif?itemid=3893716',
@@ -20,7 +20,7 @@ module.exports = {//using wokcommands(npm i wokcommands)
     description: `Just a dead command to kill off some ppl`,
     callback: async(message, args, text, prefix) => {
         const embed = new Discord.MessageEmbed()
-        .setImage(mathion.randArray(poke))
+        .setImage(mathion.randArray(death))
         .setColor('purple')
     
 

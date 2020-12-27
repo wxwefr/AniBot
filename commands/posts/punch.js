@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const mathion = require('mathion')
-const kiss =
+const punch =
 
 [
     'https://media1.tenor.com/images/4f3603010f0071227affbf2f732d79be/tenor.gif?itemid=10769541',
@@ -32,7 +32,7 @@ module.exports = {//using wokcommands(npm i wokcommands)
     description: 'Punch someone and hope its a K.O',
     callback: async(message, args, text, prefix) => {
         const embed = new Discord.MessageEmbed()
-        .setImage(mathion.randArray(kiss))
+        .setImage(mathion.randArray(punch))
         .setColor(`RANDOM`)
     
 

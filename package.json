@@ -25,6 +25,7 @@
     "dotenv": "^8.2.0",
     "mathion": "^2.2.2",
     "moment": "^2.29.1",
+    "node": "^15.4.0",
     "wokcommands": "^1.1.5"
   }
 }

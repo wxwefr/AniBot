@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const mathion = require('mathion')
-const yay =
+const smug =
 [
     'https://media1.tenor.com/images/6fcfbab36f6d2c578abd6228d1e74231/tenor.gif?itemid=9810121',
     'https://media1.tenor.com/images/daa1824574947530e1a86fd4f0b74761/tenor.gif?itemid=13940350',
@@ -42,7 +42,7 @@ module.exports = {//using wokcommands(npm i wokcommands)
     description: 'Send someone a smug',
     callback: async(message, args, text, prefix) => {
         const embed = new Discord.MessageEmbed()
-        .setImage(mathion.randArray(yay))
+        .setImage(mathion.randArray(smug))
         .setColor(`RANDOM`)
     
 

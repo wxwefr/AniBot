@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const mathion = require('mathion')
-const bigbrain = 
+const cry = 
 [
     'https://media1.tenor.com/images/f31f825f30dd3843d7f222551a100604/tenor.gif?itemid=4621792',
     'https://media1.tenor.com/images/3a49f021bb6b76f64d64a57d17ae11d1/tenor.gif?itemid=16631325',
@@ -34,7 +34,7 @@ module.exports = {//using wokcommands(npm i wokcommands)
     description: 'Show someone you be crying like a bitch',
     callback: async(message, args, text, prefix) => {
         const embed = new Discord.MessageEmbed()
-        .setImage(mathion.randArray(bigbrain))
+        .setImage(mathion.randArray(cry))
         .setColor(`RANDOM`)
     
 
