@@ -22,7 +22,7 @@ module.exports = {
         message.guild.members.ban(member, { reason: reason})
 
         const banembed = new Discord.MessageEmbed()
-        .setColor('#ff0000')
+        .setColor('#f542ec')
         .setTitle('Member Banned')
         .setThumbnail(member.user.displayAvatarURL())
         .addFields(

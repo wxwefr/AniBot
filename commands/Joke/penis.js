@@ -28,7 +28,7 @@ const mentionedMember = message.mentions.members.first() || message.guild.member
  const embed = new Discord.MessageEmbed()
     .setTitle(`Penis Calculator`)
     .setDescription(`${phrasemeaning}`)
-    .setColor(`RANDOM`)      
+    .setColor('#f542ec')    
     .setFooter(`The Mentioned Member's Penis Size.`)
 
 message.channel.send(embed)

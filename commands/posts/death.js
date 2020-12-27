@@ -21,7 +21,7 @@ module.exports = {//using wokcommands(npm i wokcommands)
     callback: async(message, args, text, prefix) => {
         const embed = new Discord.MessageEmbed()
         .setImage(mathion.randArray(death))
-        .setColor('purple')
+        .setColor('#f542ec')
     
 
     message.channel.send(embed)

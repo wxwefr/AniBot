@@ -7,7 +7,7 @@ module.exports = {
 
         const target = message.mentions.members.first() || message.guild.members.cache.get(arguments[0]) || message.member 
         const embed = new MessageEmbed()
-        .setColor("#90ee90")
+        .setColor('#f542ec')
         .setAuthor(target.user.tag, target.user.displayAvatarURL({format: "png", dynamic: true}))
         .setImage(target.user.displayAvatarURL({format: "png", dynamic: true, size: 256})) 
         .setTimestamp()

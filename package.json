@@ -19,6 +19,7 @@
   "dependencies": {
     "axios": "^0.21.0",
     "binner": "^1.0.1",
+    "booru": "^2.4.0",
     "canvas": "^2.6.1",
     "common-tags": "^1.8.0",
     "discord.js": "^12.5.1",

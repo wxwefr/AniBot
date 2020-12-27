@@ -12,7 +12,7 @@ module.exports = {
             const result = arguments.join('+')
             const url = `https://api.no-api-key.com/api/v2/trump?message=${result}`;
 
-            const embed = new MessageEmbed().setImage(url).setColor("RANDOM");
+            const embed = new MessageEmbed().setImage(url).setColor('#f542ec');
 
             await message.channel.send(embed);
         }
