@@ -29,6 +29,9 @@ You can find all the features and commands of AniBot here
 | Slap | Slap an annoying person | punch <user> |
 | Sleep | sends a sleepy gif | sleep |
 | Yay | Show everyone you're excited | yay |
+| smug | become el smug anime girl | smug |
+| pat | Headpat someone | pat/headpat |
+|                                       |
 
 Like so 
 
