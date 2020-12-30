@@ -12,4 +12,4 @@ const welcomeSchema = new mongoose.Schema({
   channelId: reqString,
 })
 
-module.exports = mongoose.model('welcome-canvas-tutorial', welcomeSchema)
+module.exports = mongoose.model('welcome-canvas', welcomeSchema)

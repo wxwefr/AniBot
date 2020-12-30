@@ -1,4 +1,4 @@
-const welcomeSchema = require('../../schemas/welcome-schema')
+const welcomeSchema = require('../../../schemas/welcome-schema')
 
 const cache = new Map()
 

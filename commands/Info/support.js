@@ -9,7 +9,7 @@ module.exports = {
         .setTitle(`AniHubs Server`)
         .setURL(`https://discord.gg/RaVuAGG6xD`)
         .setDescription(`Join AniHub for any issues you have with the bot!`)
-        .setColor("#90ee90")
+        .setColor('#f542ec')
         .setFooter(`Best to Ask Aesthetic the questions ;)`)
         message.channel.send(embed)
         return 
